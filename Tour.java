@@ -9,7 +9,7 @@ public class Tour {
     public double getTax(){
        return 0.5/100 *price;
     }
-    // day la bai cua tran thai
+    
     public void SetTour () {
         System.out.print("daylacuathenhap tên tour du lịch: ");
         title =sc.nextLine();
